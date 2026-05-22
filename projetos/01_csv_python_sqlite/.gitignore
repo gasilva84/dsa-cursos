@@ -1,0 +1,28 @@
+# Dados locais
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Bancos SQLite locais
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
